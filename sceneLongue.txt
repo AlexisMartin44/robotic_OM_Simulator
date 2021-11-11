@@ -1,0 +1,46 @@
+deplacer robots
+	@bot
+		move +20
+	@arm
+		move +20
+	@bot
+		move -20
+	@finger
+		move +10
+		move -10
+		move 0
+		move 100
+
+dance
+	@carre0%2
+		move 0
+	@carre1%2
+		move 100
+	@carre0%2
+		move 100
+	@carre1%2
+		move 0
+	@carre0%2
+		move 0
+	@carre1%2
+		move 100
+	@carre0%2
+		move 100
+	@carre1%2
+		move 0
+	@carre0%2
+		move 0
+	@carre1%2
+		move 100
+	@carre0%2
+		move 100
+	@carre1%2
+		move 0
+
+tete
+	@tete
+		move +10
+		move -20
+		move 100
+		move 0
+		move 50

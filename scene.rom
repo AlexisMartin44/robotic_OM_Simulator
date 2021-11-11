@@ -1,0 +1,95 @@
+id= room width= 400 height= 300 color= azure  border= darkgrey
+refpos= tl basepos= tl
+[
+	id= ground width%= 120 height%= 10 color= silver
+	refpos= bc basepos= tc
+	[
+		id= poteau width= 10 height= 140 color= silver
+		refpos= tc basepos= bc
+
+		id= bot2 width= 50 height= 80 color= red
+		refpos= tl endpos= tr basepos= bc translate= 0.8
+		[
+			width= 8 height= 8 color= orange
+			refpos= tr refposx= -10 refposy= 10
+
+			width= 8 height= 8 color= orange
+			refpos= tr refposx= -30 refposy= 10
+
+			id = bouche width= 30 height= 8 color= orange
+			refpos= tr refposx= -10 refposy= 30
+
+			id= cheveux1 width= 10 height= 20 color= yellow
+			refpos= tl endpos= tr basepos= bc translate= 0.5
+
+			id= cheveux2 width= 10 height= 20 color= yellow
+			refpos= tl endpos= tr basepos= bc translate= 0.2
+
+			id= cheveux3 width= 10 height= 20 color= yellow
+			refpos= tl endpos= tr basepos= bc translate= 0.8
+		]
+
+		id= bot3 width= 70 height= 80 color= pink
+		refpos= tl endpos= tr basepos= bc translate= 0.2
+		[
+			width= 8 height= 8 color= orange
+			refpos= tr refposx= -15 refposy= 15
+
+			id= arm width= 50 height= 20 color= brown
+			refpos= br endpos= tr basepos= ml
+			[
+				id= finger1 width= 5 height= 10 color= grey 
+				refpos= bc endpos= bl basepos= tr
+
+				id= finger2 width= 5 height= 10 color= grey
+				refpos= bc endpos= br basepos= tl
+			]
+		]
+	]
+
+	id= palier1 width= 400 height= 10 color= silver
+	refpos= tl refposy= 150 basepos= tl
+	[
+		id= bot1 width= 40 height= 90 color= plum
+		refpos= tl basepos= bc endpos= tr
+		[
+			id= tete width%= 90 height= 40 color= antiquewhite
+			refpos= tl basepos= bc endpos= tr
+			[
+				width= 8 height= 8 color= palevioletred
+				refpos= tl refposx= 10 refposy= 15
+	
+				width= 8 height= 8 color= palevioletred
+				refpos= tr refposx= -10 refposy= 15
+
+				width%= 70 height= 8 color= palevioletred
+				refpos= mc refposy= +5 basepos= tc
+			]
+	
+			id= arm1 width= 60 height= 15 color= palevioletred
+			refpos= br endpos= tr basepos= ml
+			[
+				id= finger1 width= 8 height= 15 color= silver
+				refpos= bc endpos= bl basepos= tr
+
+				id= finger2 width= 8 height= 15 color= silver
+				refpos= bc endpos= br basepos= tl
+			]
+
+			id= arm2 width= 60 height= 15 color= palevioletred
+			refpos= bl endpos= tl basepos= mr
+			[
+				id= finger3 width= 8 height= 15 color= silver
+				refpos= bc endpos= bl basepos= tr
+
+				id= finger4 width= 8 height= 15 color= silver
+				refpos= bc endpos= br basepos= tl
+			]
+		]	
+	]
+
+	
+]
+
+	
+	 

@@ -1,0 +1,35 @@
+danser
+	@bot
+		move +10
+		move -20
+		move +10
+	@finger
+		move -10
+	@bot
+		move +10
+		move -20
+		move +10
+	@bot2.cheveux
+		move +5
+		move -10
+		move +5
+
+changer de piece 1
+	@bot3
+		move 0
+	@bot2 
+		move -40
+
+changer de piece 2
+	@bot2
+		move 100
+	@bot3
+		move +40
+
+positions de base
+	@bot1 
+		move 50
+	@bot2 
+		move 80
+	@bot3
+		move 20

@@ -1,0 +1,43 @@
+id= room width= 400 height= 300 color= azure border= darkgrey
+refpos= tl basepos= tl
+[
+	id= ground width%= 120 height%= 10 color= darkgrey
+	refpos= bc basepos= tc
+	[
+		id= bot1 width= 60 height= 110 color= red
+		refpos= tl endpos= tr basepos= bc refposx= 250
+		[
+			width= 8 height= 8 color= orange
+			refpos= tr refposx= -15 refposy= 15
+
+			width= 8 height= 8 color= orange
+			refpos= tr refposx= -45 refposy= 15
+
+			id = bouche width= 30 height= 8 color= orange
+			refpos= tr refposx= -30 refposy= 40
+
+			id= cheveux1 width= 10 height= 20 color= yellow
+			refpos= tl endpos= tr basepos= bc translate= 0.7
+
+			id= cheveux2 width= 10 height= 20 color= yellow
+			refpos= tl endpos= tr basepos= bc translate= 0.3
+		]
+
+		id= bot2 width= 100 height= 110 color= pink
+		refpos= tl endpos= tr basepos= bc translate= 0.3
+		[
+			width= 8 height= 8 color= orange
+			refpos= tr refposx= -15 refposy= 15
+
+			id= arm width= 50 height= 20 color= brown
+			refpos= br endpos= tr basepos= ml
+			[
+				id= finger1 width= 10 height= 20 color= grey 
+				refpos= bc endpos= bl basepos= tr
+
+				id= finger2 width= 10 height= 20 color= grey
+				refpos= bc endpos= br basepos= tl
+			]
+		]
+	]
+]

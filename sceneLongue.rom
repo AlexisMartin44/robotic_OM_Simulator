@@ -1,0 +1,75 @@
+id= room width= 400 height= 300 color= azure border= darkgrey
+refpos= tl basepos= tl
+[
+	id= ground width%= 120 height%= 10 color= darkgrey
+	refpos= bc basepos= tc
+	[
+		id= mur1 width= 20 height= 300 color= darkgrey
+		refpos= tl refposx= 20 basepos= bl
+		[
+			id= carre1 width= 70 height= 80 color= turquoise
+			refpos= tr refposy= 80 basepos= ml
+			[
+				id= carre2 width%= 70 height%= 70 color= turquoise
+				refpos= br basepos= ml endpos= tr
+				[
+					id= carre3 width%= 70 height%= 70 color= turquoise
+					refpos= br basepos= ml endpos= tr
+					[
+						id= carre4 width%= 70 height%= 70 color= turquoise
+						refpos= br basepos= ml endpos= tr
+					]
+				]
+			]
+		]
+
+		id= mur2 width= 20 height= 300 color= darkgrey
+		refpos= tr refposx= -20 basepos= br
+		[
+			id= bot2 width= 70 height= 20 color= green
+			refpos= bl basepos= mr endpos= tl
+			[
+				id= finger5 width= 8 height= 15 color= purple
+				refpos= br basepos= tc endpos= bl
+			]
+		]
+
+		id= bot1 width= 50 height= 120 color= green
+		refpos= tl endpos= tr basepos= bc translate= 0.4
+		[
+			id= tete width%= 90 height= 40 color= green
+			refpos= tl basepos= bc endpos= tr
+			[
+				width= 8 height= 8 color= orange
+				refpos= tl refposx= 15 refposy= 15
+
+				width= 8 height= 8 color= orange
+				refpos= tr refposx= -15 refposy= 15
+
+				width%= 70 height= 8 color= orange
+				refpos= mc refposy= +5 basepos= tc
+			]
+
+			id= arm1 width= 80 height= 15 color= turquoise
+			refpos= br endpos= tr basepos= ml
+			[
+				id= finger1 width= 8 height= 15 color= lightgreen
+				refpos= bc endpos= bl basepos= tr
+
+				id= finger2 width= 8 height= 15 color= lightgreen
+				refpos= bc endpos= br basepos= tl
+			]
+
+			id= arm2 width= 80 height= 15 color= turquoise
+			refpos= bl endpos= tl basepos= mr
+			[
+				id= finger3 width= 10 height= 20 color= lightgreen
+				refpos= bc endpos= bl basepos= tr
+
+				id= finger4 width= 10 height= 20 color= lightgreen
+				refpos= bc endpos= br basepos= tl
+			]
+
+		]
+	]
+]

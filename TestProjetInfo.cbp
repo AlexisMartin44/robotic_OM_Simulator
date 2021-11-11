@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TestProjetInfo" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TestProjetInfo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TestProjetInfo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="ConsoleExtension.cpp" />
+		<Unit filename="ConsoleExtension.h" />
+		<Unit filename="forme.cpp" />
+		<Unit filename="forme.h" />
+		<Unit filename="historique.cpp" />
+		<Unit filename="historique.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="objet.cpp" />
+		<Unit filename="objet.h" />
+		<Unit filename="ordre.cpp" />
+		<Unit filename="ordre.h" />
+		<Unit filename="piece.cpp" />
+		<Unit filename="piece.h" />
+		<Unit filename="room.cpp" />
+		<Unit filename="room.h" />
+		<Unit filename="script.cpp" />
+		<Unit filename="script.h" />
+		<Unit filename="src/geometrie/coords.cpp" />
+		<Unit filename="src/geometrie/coords.h" />
+		<Unit filename="src/graphisme/couleur.cpp" />
+		<Unit filename="src/graphisme/couleur.h" />
+		<Unit filename="src/graphisme/styledessin.h" />
+		<Unit filename="src/svg/svgfile.cpp" />
+		<Unit filename="src/svg/svgfile.h" />
+		<Unit filename="src/util/util.cpp" />
+		<Unit filename="src/util/util.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

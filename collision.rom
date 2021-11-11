@@ -1,0 +1,38 @@
+id= room width= 400 height= 300 color= azure border= darkgrey
+refpos= tl basepos= tl
+[
+	id= ground width%= 120 height%= 10 color= darkgrey
+	refpos= bc basepos= tc
+	[
+		id= poteau width= 30 height= 200 color= darkgrey
+		refpos= tc refposx= 100 basepos= bc
+		[
+			id= box width= 30 height= 20 color= peru
+			refpos= tl refposy= 90 basepos= mr
+		]
+
+		id= bot width= 60 height= 110 color= lightseagreen
+		refpos= tl endpos= tr basepos= bc translate= 0.3
+		[
+			width= 8 height= 8 color= orange
+			refpos= tr refposx= -15 refposy= 15
+
+			id= arm width= 80 height= 20 color= turquoise
+			refpos= br endpos= tr basepos= ml
+			[
+				id= finger1 width= 10 height= 20 color= lightgreen
+				refpos= bc endpos= bl basepos= tr
+
+				id= finger2 width= 10 height= 20 color= lightgreen
+				refpos= bc endpos= br basepos= tl
+
+				id= finger3 width= 20 height= 10 color= lightgreen
+				refpos= br endpos= tr basepos= ml
+				[
+					id= finger4 width= 20 height= 10 color= lightgreen
+					refpos= br endpos= tr basepos= ml
+				]
+			]
+		]
+	]
+]
